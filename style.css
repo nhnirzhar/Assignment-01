@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .introduce {
+    margin-left: 200px;
+  }
+
+  .introduce h1 {
+    font-size: 40px;
+    color: grey;
+  }
+  .introduce ul {
+      color: gray;
+  }
+
+  .img1 {
+      border-radius: 5%;
+      width: 280px;
+      height: 280px;
+      position: absolute;
+      top: 10%;
+      right: 20%;
+  }
+  .img2 {
+    border-radius: 5%;
+    width: 250px;
+    height: 250px; 
+  position: absolute;
+  top: 80%;
+  left: 20%;
+}
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+}
+
+  .sec-1 {
+    margin: 50px;
+  }
+
+  .sec-2 {
+      margin: 50px 50px 50px;
+  }
+
+  .sec-3 {
+    position: absolute;
+    top: 150%;
+    margin: 50px 200px;
+  }
+  
+
+  .about {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    margin-right: 30px;
+  }
+  .about p {
+      color: gray;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 30px;
+  }
+  .box {
+    border: 2px solid rgb(221, 198, 198);
+    padding: 20px;
+  }
+  
